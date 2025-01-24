@@ -34,8 +34,8 @@
             "label": "app"
           },
           {
-            "value": "internal",
-            "label": "internal"
+            "value": "internalOOOOOO",
+            "label": "internalOOOOOO"
           },
           {
             "value": "shared",
@@ -43,7 +43,7 @@
           }
         ]
       },
-      "enums": ["api", "movies", "shared"]
+      "enums": ["api", "movies", "app", "internalOOOOOO", "shared"]
     }
   },
   "required": ["name", "directory"]

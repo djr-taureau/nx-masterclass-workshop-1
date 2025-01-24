@@ -51,3 +51,6 @@ function updateSchemaInterface(tree: Tree, scopes: string[]) {
 }`;
   tree.write(interfaceDefinitionFilePath, newContent);
 }
+
+
+export default generator;
