@@ -7,6 +7,7 @@ export const routes: Routes = [
       import('@nx-workshop/movies/feature-movie-list').then(
         m => m.MovieListPageComponent
       ),
+      title: 'Movies List'
   },
   {
     path: 'list/genre/:id',
@@ -14,6 +15,7 @@ export const routes: Routes = [
       import('@nx-workshop/movies/feature-movie-list').then(
         m => m.MovieListPageComponent
       ),
+      title: 'Movies Genre'
   },
   {
     path: 'movie/:id',
@@ -21,6 +23,7 @@ export const routes: Routes = [
       import('@nx-workshop/movies/feature-movie-detail').then(
         m => m.MovieDetailPageComponent
       ),
+      title: 'Movie Detail'
   },
   {
     path: 'search/:query',
