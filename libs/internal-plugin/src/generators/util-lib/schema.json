@@ -12,7 +12,39 @@
         "index": 0
       },
       "x-prompt": "What name would you like to use?"
+    },
+    "directory": {
+      "type": "string",
+      "description": "Provide the library type",
+      "enum": ["movies", "api", "shared"],
+      "x-prompt": {
+        "message": "Where do you wanna generate it?",
+        "type": "list",
+        "items": [
+          {
+            "value": "api",
+            "label": "api"
+          },
+          {
+            "value": "movies",
+            "label": "movies"
+          },
+          {
+            "value": "app",
+            "label": "app"
+          },
+          {
+            "value": "internal",
+            "label": "internal"
+          },
+          {
+            "value": "shared",
+            "label": "shared"
+          }
+        ]
+      },
+      "enums": ["api", "movies", "shared"]
     }
   },
-  "required": ["name"]
+  "required": ["name", "directory"]
 }
